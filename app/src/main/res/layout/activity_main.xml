@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222222"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/marvel_logo"
+        android:src="@drawable/marvel_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/intro"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:linksClickable="false"
+        android:text="@string/start"
+        android:textColor="#000000"
+        app:backgroundTint="#FFF200" />
+
+    <Button
+        android:id="@+id/button_random"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:linksClickable="false"
+        android:text="@string/random"
+        android:textColor="#000000"
+        app:backgroundTint="#FFF200" />
+
+    <Button
+        android:id="@+id/button_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:linksClickable="false"
+        android:text="@string/map"
+        android:textColor="#000000"
+        app:backgroundTint="#FFF200" />
+
+</LinearLayout>

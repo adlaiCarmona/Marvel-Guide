@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Marvel Guide</string>
+    <string name="marvel_logo">Marvel logo</string>
+    <string name="intro">Marvel Guide</string>
+    <string name="start">Start</string>
+    <string name="random">Random Movie</string>
+    <string name="map">Where to Watch</string>
+    <string name="selectPhase">Select a Phase</string>
+    <string name="selectMovie">Select a Movie</string>
+    <string name="watched">Watched</string>
+    <string name="share_button">Share</string>
+    <string-array name="options">
+        <item>Phase 1</item>
+        <item>Phase 2</item>
+        <item>Phase 3</item>
+        <item>Phase 4</item>
+    </string-array>
+</resources>
